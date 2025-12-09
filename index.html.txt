@@ -1,0 +1,22 @@
+mn-daily-items/
+├─ app.py                   # Main Flask app
+├─ config.py                # Config variables
+├─ models.py                # DB helper functions
+├─ requirements.txt         # Python dependencies
+├─ .gitignore               # Ignore env, pyc, uploads
+├─ README.md
+├─ static/
+│   ├─ css/
+│   │   └─ style.css
+│   ├─ js/
+│   │   └─ main.js
+│   └─ uploads/             # Product images
+├─ templates/
+│   ├─ index.html           # Home page
+│   ├─ product.html         # Product detail
+│   ├─ cart.html            # Cart page
+│   ├─ auth.html            # User login/signup
+│   ├─ admin-login.html     # Admin login
+│   ├─ admin.html           # Admin dashboard
+│   └─ admin-edit.html      # Edit product
+└─ .env                     # Environment variables (not committed)
